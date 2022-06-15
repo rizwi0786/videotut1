@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media file adding</title>
+  </head>
+  <body>
+    <h2>in this page we will add video amd audio</h2>
+    <p>adding vidio</p>
+    <video
+      width="320"
+      height="240"
+      src="video_ani.mp4"
+      type="video/mp4"
+      controls
+    ></video>
+    <p>Mode 2 for adding video muted auto platy</p>
+    <video
+      width="320"
+      height="240"
+      src="video_ani.mp4"
+      type="video/mp4"
+      autoplay
+      muted
+    ></video>
+    <p>Mode 3 for adding video autoplay</p>
+    <video
+      width="320"
+      height="240"
+      src="video_ani.mp4"
+      type="video/mp4"
+      autoplay
+    ></video>
+    <h2>adding audio</h2>
+    <p>mode 1 controled</p>
+    <audio controls>
+      <source src="audio_d.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <p>mode 2 controled and autoplay</p>
+    <audio controls autoplay>
+      <source src="audio_d.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <p>mode 3 controled and muted audio</p>
+    <audio controls autoplay muted>
+      <source src="audio_d.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <h2>plug in data from ather web</h2>
+    <object width="100%" height="500px" data="snippet.html"></object>
+    <embed width="100%" height="500px" src="snippet.html" />
+
+    <iframe
+      width="420"
+      height="315"
+      src="https://www.youtube.com/embed/tgbNymZ7vqY"
+    >
+    </iframe>
+    <br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/6gWoTJgYvSc?autoplay=1&mute=1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
